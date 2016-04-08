@@ -1,0 +1,9 @@
+#My Various Spreadsheets
+
+##Spring Tool Suite (3.7.3 RELEASE)
+
+
+----------
+Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
+
+    mvn spring-boot:run
