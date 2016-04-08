@@ -7,3 +7,7 @@
 Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
 
     mvn spring-boot:run
+
+Build JAR/WAR package
+
+    mvn clean package
