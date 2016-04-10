@@ -11,3 +11,7 @@ Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-s
 Build JAR/WAR package
 
     mvn clean package
+
+Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin/2.2) required)
+
+    mvn tomcat7:run
