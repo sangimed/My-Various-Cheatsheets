@@ -14,8 +14,8 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
 
     mvn tomcat7:run
 
-##Arch Linux
+##JAVA
 ----------
-Cleaning the package cache
+simple way to display an array of string
 
-    sudo pacman -Sc
+    System.out.println(Arrays.toString(myStringArray));
