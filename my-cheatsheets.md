@@ -16,6 +16,12 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
 
 ##JAVA
 ----------
-simple way to display an array of string
+Simple way to display an array of string
 
     System.out.println(Arrays.toString(myStringArray));
+
+##Symfony (2.7)
+----------
+Create an admin user
+
+    php app/console fos:user:create admin admin@admin.dev admin
