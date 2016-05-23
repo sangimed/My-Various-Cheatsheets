@@ -25,3 +25,9 @@ Simple way to display an array of string
 Create an admin user
 
     php app/console fos:user:create admin admin@admin.dev admin
+
+##NPM (3.9.2)
+----------
+Install a npm module and save it to package.json
+
+    npm install <module_name> --save
