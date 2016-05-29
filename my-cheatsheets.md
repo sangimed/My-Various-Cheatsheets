@@ -31,3 +31,9 @@ Create an admin user
 Install a npm module and save it to package.json
 
     npm install <module_name> --save
+
+##Arch Linux
+----------
+Clean the package cache (to save space)
+
+    sudo pacman -Sc
