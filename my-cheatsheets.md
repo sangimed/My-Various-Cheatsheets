@@ -37,3 +37,8 @@ Install a npm module and save it to package.json
 Clean the package cache (to save space)
 
     sudo pacman -Sc
+
+Reinstall grub2 (may work on other distributions)
+
+    sudo grub-install --recheck --root-directory=/mnt /dev/sda\n
+    sudo grub-mkconfig -o /mnt/boot/grub/grub.cfg
