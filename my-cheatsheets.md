@@ -42,3 +42,7 @@ Reinstall grub2 (may work on other distributions)
 
     sudo grub-install --recheck --root-directory=/mnt /dev/sda\n
     sudo grub-mkconfig -o /mnt/boot/grub/grub.cfg
+    
+##[Jekyll](https://jekyllrb.com/)
+----------
+- Any file whose name starts with _ is not imported into the _site folder after "compiling".
