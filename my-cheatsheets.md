@@ -32,7 +32,7 @@ Install a npm module and save it to package.json
 
     npm install <module_name> --save
 
-##Arch Linux
+##Arch Linux (and derivatives)
 ----------
 Clean the package cache (to save space)
 
