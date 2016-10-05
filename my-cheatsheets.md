@@ -46,6 +46,7 @@ Reinstall grub2 (may work on other distributions)
 Remove a desktop environement (kde)
 
     pacman -Rnsc kde
+    sudo pacman -Rnsc kde-applications # To remove the DE associated apps
     
 ##[Jekyll](https://jekyllrb.com/)
 ----------
