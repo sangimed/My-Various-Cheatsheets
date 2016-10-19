@@ -1,4 +1,4 @@
-#My Various Spreadsheets
+#My Various Cheatsheets
 
 ##Spring Tool Suite (3.7.3 RELEASE)
 ----------
