@@ -47,6 +47,10 @@ Remove a desktop environement (kde)
 
     pacman -Rnsc kde
     sudo pacman -Rnsc kde-applications # To remove the DE associated apps
+
+Force quit pacman/yaourt
+
+    sudo rm /var/lib/pacman/db.lck
     
 ##[Jekyll](https://jekyllrb.com/)
 ----------
