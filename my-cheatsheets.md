@@ -55,3 +55,9 @@ Force quit pacman/yaourt
 ##[Jekyll](https://jekyllrb.com/)
 ----------
 - Any file whose name starts with _ is not imported into the _site folder after "compiling".
+
+##PostgreSQL
+----------
+Connect to a database
+
+    psql <dbName> <userName>
