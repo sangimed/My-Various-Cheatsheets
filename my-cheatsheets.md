@@ -61,3 +61,9 @@ Force quit pacman/yaourt
 Connect to a database
 
     psql <dbName> <userName>
+
+##Git
+Change git default editor
+Connect to a database
+
+    git config --global core.editor <editor>
