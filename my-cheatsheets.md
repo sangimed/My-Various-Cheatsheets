@@ -64,6 +64,5 @@ Connect to a database
 
 ##Git
 Change git default editor
-Connect to a database
 
     git config --global core.editor <editor>
