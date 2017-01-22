@@ -66,3 +66,7 @@ Connect to a database
 Change git default editor
 
     git config --global core.editor <editor>
+
+Modify last commit
+
+    git commit --amend
