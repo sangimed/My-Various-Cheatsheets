@@ -71,10 +71,6 @@ Modify last commit
 
     git commit --amend
 
-Modify last commit
-
-    git commit --amend
-
 Difference between --mixed, --soft, --hard reset (click on image to see source):
 
 [![git reset different types](img/hard_soft_mixed.jpg)](http://stackoverflow.com/a/3528483/2300596)
