@@ -20,6 +20,12 @@ Simple way to display an array of string
 
     System.out.println(Arrays.toString(myStringArray));
 
+## MAVEN
+----------
+settings.xml file location (Debian based distros)
+
+    /usr/share/maven/conf
+
 ##Symfony (2.7)
 ----------
 Create an admin user
