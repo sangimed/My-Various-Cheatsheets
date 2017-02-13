@@ -80,3 +80,5 @@ Modify last commit
 Difference between --mixed, --soft, --hard reset (click on image to see source):
 
 [![git reset different types](img/hard_soft_mixed.jpg)](http://stackoverflow.com/a/3528483/2300596)
+
+[A very good GIT Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
