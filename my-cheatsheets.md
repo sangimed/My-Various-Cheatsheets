@@ -1,6 +1,6 @@
-#My Various Cheatsheets
+# My Various Cheatsheets
 
-##Spring Tool Suite (3.7.3 RELEASE)
+## Spring Tool Suite (3.7.3 RELEASE)
 ----------
 Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
 
@@ -14,7 +14,7 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
 
     mvn tomcat7:run
 
-##JAVA
+## JAVA
 ----------
 Simple way to display an array of string
 
@@ -26,19 +26,19 @@ settings.xml file location (Debian based distros)
 
     /usr/share/maven/conf
 
-##Symfony (2.7)
+## Symfony (2.7)
 ----------
 Create an admin user
 
     php app/console fos:user:create admin admin@admin.dev admin
 
-##NPM (3.9.2)
+## NPM (3.9.2)
 ----------
 Install a npm module and save it to package.json
 
     npm install <module_name> --save
 
-##Arch Linux (and derivatives)
+## Arch Linux (and derivatives)
 ----------
 Clean the package cache (to save space)
 
@@ -58,17 +58,17 @@ Force quit pacman/yaourt
 
     sudo rm /var/lib/pacman/db.lck
     
-##[Jekyll](https://jekyllrb.com/)
+## [Jekyll](https://jekyllrb.com/)
 ----------
 - Any file whose name starts with _ is not imported into the _site folder after "compiling".
 
-##PostgreSQL
+## PostgreSQL
 ----------
 Connect to a database
 
     psql <dbName> <userName>
 
-##Git
+## Git
 Change git default editor
 
     git config --global core.editor <editor>
