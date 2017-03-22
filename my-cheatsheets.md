@@ -26,6 +26,10 @@ settings.xml file location (Debian based distros)
 
     /usr/share/maven/conf
 
+Skip maven tests when packaging
+
+    mvn package -Dmaven.test.skip=true
+
 ## Symfony (2.7)
 ----------
 Create an admin user
