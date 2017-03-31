@@ -92,3 +92,6 @@ Difference between --mixed, --soft, --hard reset (click on image to see source):
 Change color scheme (to elflord in this example) on the fly
 
     :colorscheme elflord
+ 
+## Bash
+[LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
