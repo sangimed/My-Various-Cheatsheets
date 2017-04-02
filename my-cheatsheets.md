@@ -95,3 +95,12 @@ Change color scheme (to elflord in this example) on the fly
  
 ## Bash
 [LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
+
+## Windows Command
+----------
+Find the process using a specific port (8080)
+
+    netstat -a -n -o | find "8080"
+Kill a process by its PID  (2728)
+
+    taskkill /F /PID 2728
