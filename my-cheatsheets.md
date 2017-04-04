@@ -74,6 +74,10 @@ Modify last commit
 
     git commit --amend
 
+Create a .gitignore on windows (create the gitignore.txt file before)
+
+    ren gitignore.txt .gitignore
+
 Difference between --mixed, --soft, --hard reset (click on image to see source):
 
 [![git reset different types](img/hard_soft_mixed.jpg)](http://stackoverflow.com/a/3528483/2300596)
