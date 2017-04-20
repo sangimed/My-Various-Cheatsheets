@@ -115,3 +115,8 @@ Find the process using a specific port (8080)
 Kill a process by its PID  (2728)
 
     taskkill /F /PID 2728
+
+## RegExp
+Select all the lines containing "hello"
+
+    ^.*hello.*\r\n
