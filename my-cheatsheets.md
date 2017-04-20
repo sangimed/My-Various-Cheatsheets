@@ -108,7 +108,7 @@ Change color scheme (to elflord in this example) on the fly
 ## Bash
 [LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
 
-## Windows Command
+## Windows Commands
 Find the process using a specific port (8080)
 
     netstat -a -n -o | find "8080"
