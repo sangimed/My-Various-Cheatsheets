@@ -19,6 +19,9 @@ Simple way to display an array of string
 
     System.out.println(Arrays.toString(myStringArray));
 
+## JAVASCRIPT
+    [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+
 ## MAVEN
 settings.xml file location (Debian based distros)
 
