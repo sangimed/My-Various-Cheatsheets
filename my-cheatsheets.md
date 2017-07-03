@@ -1,7 +1,7 @@
 # My Various Cheatsheets
 ----------
 
-## Spring Tool Suite (3.7.3 RELEASE)
+## Spring
 Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
 
     mvn spring-boot:run
@@ -102,6 +102,10 @@ Difference between --mixed, --soft, --hard reset (click on image to see source):
 [![git reset different types](img/hard_soft_mixed.jpg)](http://stackoverflow.com/a/3528483/2300596)
 
 [A very good GIT Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
+
+Cahnge git remote URL (for remote repository migration)
+
+    git remote set-url origin git://new.url.here
 
 ## VIM
 Change color scheme (to elflord in this example) on the fly
