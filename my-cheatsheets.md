@@ -103,9 +103,14 @@ Difference between --mixed, --soft, --hard reset (click on image to see source):
 
 [A very good GIT Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
 
-Cahnge git remote URL (for remote repository migration)
+Change git remote URL (for remote repository migration)
 
     git remote set-url origin git://new.url.here
+    
+Add multiple remotes (to push to both a gitlab and a github server for example)
+
+    git remote set-url origin --push --add <a remote>
+    git remote set-url origin --push --add <another remote>
 
 ## VIM
 Change color scheme (to elflord in this example) on the fly
