@@ -131,6 +131,15 @@ Find the process using a specific port (8080)
 Kill a process by its PID  (2728)
 
     taskkill /F /PID 2728
+## LaTeX
+A good looking listing configuration
+
+     \lstset{aboveskip=20pt}
+     
+     \begin{lstlisting}[firstnumber=10,numbers=left,numberstyle=\bf \tiny \color{black},caption={Programme d'exemple de la syntaxe de Pascal},language=pascal,frame=lines]
+        CODE HERE ...
+    \end{lstlisting}
+     
 
 ## RegExp
 Select all the lines containing "hello"
