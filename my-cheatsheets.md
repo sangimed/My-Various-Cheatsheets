@@ -136,7 +136,7 @@ A good looking listing configuration
 
      \lstset{aboveskip=20pt}
      
-     \begin{lstlisting}[firstnumber=10,numbers=left,numberstyle=\bf \tiny \color{black},caption={Programme d'exemple de la syntaxe de Pascal},language=pascal,frame=lines]
+     \begin{lstlisting}[firstnumber=1,numbers=left,numberstyle=\bf \tiny \color{black},caption={Hello World},language=pascal,frame=lines]
         CODE HERE ...
     \end{lstlisting}
      
