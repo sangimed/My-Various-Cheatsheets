@@ -5,8 +5,6 @@
 - [ ] Indexify the titles (anchor links)
 
 ***
-# My Various Cheatsheets
-----------
 
 ## Spring
 Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
