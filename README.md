@@ -22,7 +22,13 @@ Simple way to display an array of string
     System.out.println(Arrays.toString(myStringArray));
 
 ## JAVASCRIPT
-    [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+* [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+
+* Will evaluate to true if aVariable is not : null, undefined, NaN, "", 0, false.
+
+        if( aVariable ) {
+         // Stuff
+        }
 
 ## MAVEN
 settings.xml file location (Debian based distros)
