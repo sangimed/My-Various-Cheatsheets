@@ -153,3 +153,6 @@ A good looking listing configuration
 Select all the lines containing "hello"
 
     ^.*hello.*\r\n
+    
+## Miscellaneous
+ - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
