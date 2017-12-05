@@ -83,7 +83,17 @@ Remove a desktop environement (kde)
 Force quit pacman/yaourt
 
     sudo rm /var/lib/pacman/db.lck
-    
+
+## Red Hat (based) distros
+go to the internetz !
+
+    # /etc/sysconfig/network-scripts/ifcfg-enp0s3
+    DNS1=8.8.8.8
+    DNS2=8.8.4.4
+    # Note this was set to no
+    ONBOOT=yes  
+
+
 ## [Jekyll](https://jekyllrb.com/)
 - Any file whose name starts with _ is not imported into the _site folder after "compiling".
 
