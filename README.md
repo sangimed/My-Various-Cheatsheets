@@ -37,7 +37,7 @@ settings.xml file location (Debian based distros)
 
 Skip maven tests when packaging
 
-    mvn package -Dmaven.test.skip=true
+    mvn package -DskipTests
 
 Put a jar in the local repository
 ```
