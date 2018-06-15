@@ -164,6 +164,10 @@ A good looking listing configuration
 Select all the lines containing "hello"
 
     ^.*hello.*\r\n
-    
+
+## WireShark
+
+    http contains "text" or http.response.code == 200
+
 ## Miscellaneous
  - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
