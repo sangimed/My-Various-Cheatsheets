@@ -171,3 +171,8 @@ Select all the lines containing "hello"
 
 ## Miscellaneous
  - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
+ 
+## Tomcat
+Undeploy an app via tomcat manager
+   
+    curl -u user:pwd  "http://localhost:port/manager/text/undeploy?path=/myappspath/&version=myappsversion"
