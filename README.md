@@ -17,9 +17,12 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
     mvn tomcat7:run
 
 ## JAVA
-Simple way to display an array of string
+Generic way of overriding Object.toString() method
 
-    System.out.println(Arrays.toString(myStringArray));
+    @Override
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
+    }
 
 ## JAVASCRIPT
 * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
