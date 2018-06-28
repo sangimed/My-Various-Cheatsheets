@@ -17,7 +17,7 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
     mvn tomcat7:run
 
 ## JAVA
-Generic way of overriding Object.toString() method
+Generic way of overriding Object.toString() method (thank you org.apache.commons.lang3)
 
     @Override
     public String toString() {
