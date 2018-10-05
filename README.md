@@ -24,6 +24,23 @@ Generic way of overriding Object.toString() method (thank you org.apache.commons
         return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
     }
 
+Call plsql procedure from java with JPA
+
+    @PersistenceContext
+    private EntityManager entityManager;
+
+    public String myfunc(final String param) {
+        StoredProcedureQuery query = entityManager.createStoredProcedureQuery("plsql_procedure_name")
+                .registerStoredProcedureParameter("param", String.class, ParameterMode.IN)
+                .registerStoredProcedureParameter("result", String.class, ParameterMode.OUT)
+                .setParameter("param", param);
+
+        query.execute();
+
+        return (String) query.getOutputParameterValue("result");
+
+    }
+
 ## JAVASCRIPT
 * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 
