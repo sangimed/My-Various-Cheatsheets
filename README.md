@@ -188,9 +188,6 @@ Select all the lines containing "hello"
 ## WireShark
 
     http contains "text" or http.response.code == 200
-
-## Miscellaneous
- - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
  
 ## Tomcat
 Undeploy an app via tomcat manager
@@ -202,3 +199,7 @@ Undeploy an app via tomcat manager
     Error:java: javacTask: source release 8 requires target release 1.8
 
 Reimporting all maven projects resolves this (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd> then search for `reimport`).
+
+## Miscellaneous
+ - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
+ - :warning: https://github.com/sangimed/Coding-rules :warning:
