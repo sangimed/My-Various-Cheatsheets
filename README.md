@@ -196,3 +196,9 @@ Select all the lines containing "hello"
 Undeploy an app via tomcat manager
    
     curl -u user:pwd  "http://localhost:port/manager/text/undeploy?path=/myappspath/&version=myappsversion"
+    
+## Usual Intellij problems and how to resolve them
+
+    Error:java: javacTask: source release 8 requires target release 1.8
+
+Reimporting all maven projects resolves this (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd> then search for `reimport`).
