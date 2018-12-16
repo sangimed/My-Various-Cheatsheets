@@ -19,27 +19,31 @@ Start Tomcat ([Apache Tomcat7 Maven Plugin](http://mvnrepository.com/artifact/or
 ## JAVA
 Generic way of overriding Object.toString() method (thank you org.apache.commons.lang3)
 
-    @Override
-    public String toString() {
-        return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
-    }
+```java
+@Override
+public String toString() {
+    return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
+}
+```
 
 Call plsql procedure from java with JPA
 
-    @PersistenceContext
-    private EntityManager entityManager;
+```java
+@PersistenceContext
+private EntityManager entityManager;
 
-    public String myfunc(final String param) {
-        StoredProcedureQuery query = entityManager.createStoredProcedureQuery("plsql_procedure_name")
-                .registerStoredProcedureParameter("param", String.class, ParameterMode.IN)
-                .registerStoredProcedureParameter("result", String.class, ParameterMode.OUT)
-                .setParameter("param", param);
+public String myfunc(final String param) {
+    StoredProcedureQuery query = entityManager.createStoredProcedureQuery("plsql_procedure_name")
+            .registerStoredProcedureParameter("param", String.class, ParameterMode.IN)
+            .registerStoredProcedureParameter("result", String.class, ParameterMode.OUT)
+            .setParameter("param", param);
 
-        query.execute();
+    query.execute();
 
-        return (String) query.getOutputParameterValue("result");
+    return (String) query.getOutputParameterValue("result");
 
-    }
+}
+```
 
 ## JAVASCRIPT
 * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
@@ -85,7 +89,18 @@ Install a npm module and save it to package.json
 
     npm install <module_name> --save
 
-## Arch Linux (and derivatives)
+## Linux
+
+Do nothing when the lid is closed (useful when using a laptop as a server)
+
+```ini
+# Content of /etc/systemd/logind.conf
+[Login]
+HandleLidSwitch=ignore
+```
+
+### Arch Linux (and derivatives)
+
 Clean the package cache (to save space)
 
     sudo pacman -Sc
@@ -144,7 +159,7 @@ Difference between --mixed, --soft, --hard reset (click on image to see source):
 Change git remote URL (for remote repository migration)
 
     git remote set-url origin git://new.url.here
-    
+
 Add multiple remotes (to push to both a gitlab and a github server for example)
 
     git remote set-url origin --push --add <a remote>
@@ -157,8 +172,8 @@ Change color scheme (to elflord in this example) on the fly
     :colorscheme elflord
 
 Display line numbers
-    
-    :set number
+​    
+​    :set number
 
 ## Bash
 [LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
@@ -178,7 +193,7 @@ A good looking listing configuration
      \begin{lstlisting}[firstnumber=1,numbers=left,numberstyle=\bf \tiny \color{black},caption={Hello World},language=pascal,frame=lines]
         CODE HERE ...
     \end{lstlisting}
-     
+
 
 ## RegExp
 Select all the lines containing "hello"
@@ -188,13 +203,15 @@ Select all the lines containing "hello"
 ## WireShark
 
     http contains "text" or http.response.code == 200
- 
+
 ## Tomcat
 Undeploy an app via tomcat manager
-   
+
     curl -u user:pwd  "http://localhost:port/manager/text/undeploy?path=/myappspath/&version=myappsversion"
-    
-## Usual Intellij problems and how to resolve them
+
+## Intellij
+
+### Usual Intellij problems and how to resolve them
 
     Error:java: javacTask: source release 8 requires target release 1.8
 
