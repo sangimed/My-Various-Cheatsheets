@@ -1,8 +1,4 @@
 # My-Various-Cheatsheets
-[Cheatsheets](https://github.com/sangimed/My-Various-Cheatsheets/blob/master/my-cheatsheets.md) about different languages and tools I use. For sake of readability, I won't include the source when it comes from official documentation.
-
-***
-
 ## Spring
 Run an application ([Spring boot](http://projects.spring.io/spring-boot/#quick-start) should be installed)
 
@@ -217,6 +213,11 @@ Undeploy an app via tomcat manager
 
 Reimporting all maven projects resolves this (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd> then search for `reimport`).
 
+## Docker
+
+- `docker-compose.yml` describes a docker based application (could use different containers).
+
 ## Miscellaneous
+
  - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
  - :warning: https://github.com/sangimed/Coding-rules :warning:
