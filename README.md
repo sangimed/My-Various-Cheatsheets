@@ -162,6 +162,16 @@ Add multiple remotes (to push to both a gitlab and a github server for example)
     git remote set-url origin --push --add <another remote>
 
 [Fast forwarding](https://sandofsky.com/images/fast_forward.pdf)
+
+Ignoring a file locally
+
+    git update-index --skip-worktree path/to/file
+    
+    # Confirm
+    git ls-files -v | grep ^S
+    
+    # Restore
+    git update-index --no-skip-worktree path/to/file
 ## VIM
 Change color scheme (to elflord in this example) on the fly
 
