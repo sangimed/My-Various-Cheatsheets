@@ -172,6 +172,11 @@ Ignoring a file locally
     
     # Restore
     git update-index --no-skip-worktree path/to/file
+    
+Global settings for line endings
+
+    $ git config --global core.autocrlf true
+
 ## VIM
 Change color scheme (to elflord in this example) on the fly
 
