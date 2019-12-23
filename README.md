@@ -95,6 +95,10 @@ Do nothing when the lid is closed (useful when using a laptop as a server)
 HandleLidSwitch=ignore
 ```
 
+Copy a file over SSH
+    
+    ssh-copy-id -i <file_path> <user@host>
+
 ### Arch Linux (and derivatives)
 
 Clean the package cache (to save space)
