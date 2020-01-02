@@ -120,7 +120,7 @@ Force quit pacman/yaourt
     sudo rm /var/lib/pacman/db.lck
 
 ## Red Hat (based) distros
-go to the internetz !
+go to the internetz ! (uses /!\ Google Public DNS /!\)
 
     # /etc/sysconfig/network-scripts/ifcfg-enp0s3
     DNS1=8.8.8.8
