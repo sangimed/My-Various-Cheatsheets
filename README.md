@@ -236,6 +236,10 @@ Reimporting all maven projects resolves this (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<
 
 - `docker-compose.yml` describes a docker based application (could use different containers).
 
+Docker interactive mode
+    
+    docker container run -ti ubuntu bash
+
 ## Miscellaneous
 
  - [Music for programming - https://musicforprogramming.net](https://musicforprogramming.net/)
