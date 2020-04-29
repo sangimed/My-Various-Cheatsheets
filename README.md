@@ -50,6 +50,28 @@ public String myfunc(final String param) {
          // Stuff
         }
 
+## TypeScript
+### NestJs
+File uploading
+```Typescript
+  @Post('upload')
+  @UseInterceptors(FileInterceptor('file',
+    {
+      storage: diskStorage({
+        destination: './uploads', // be sure to create a .gitignore that ignores everything in the folder (except itself)
+
+        filename: (req, file, cb) => {
+          const randomName = Array(32).fill(null).map(() => (Math.round(Math.random() * 16)).toString(16)).join('')
+          return cb(null, `${file.originalname}`)
+        }
+      })
+    }
+  ))
+  async upload(@UploadedFile() file: BufferedFile) { // BufferedFile is an interface defined in the project
+    await this.fileService.upload(file);
+  }
+```
+
 ## MAVEN
 settings.xml file location (Debian based distros)
 
