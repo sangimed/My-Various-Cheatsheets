@@ -41,7 +41,10 @@ public String myfunc(final String param) {
 }
 ```
 
-## JAVASCRIPT
+## JS/TS/Node
+
+### JS 
+
 * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 
 * Will evaluate to true if aVariable is not : null, undefined, NaN, "", 0, false.
@@ -50,8 +53,15 @@ public String myfunc(final String param) {
          // Stuff
         }
 
-## TypeScript
+### Node
+
+Get the current global prefix
+```
+npm prefix -g
+```
+
 ### NestJs
+
 File uploading
 ```Typescript
   @Post('upload')
