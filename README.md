@@ -212,6 +212,17 @@ Ignoring a file locally
 Global settings for line endings
 
     $ git config --global core.autocrlf true
+    
+Squashing
+
+    git rebase -i HEAD~10
+    
+    #pick affab1e The first commit for the feature
+    #squash accab1e The second commit for the feature
+    #...
+    #squash abcdef1 The last commit for the feature
+    
+    git push origin +branch
 
 ## VIM
 Change color scheme (to elflord in this example) on the fly
