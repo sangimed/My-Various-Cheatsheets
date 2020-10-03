@@ -126,6 +126,11 @@ Do nothing when the lid is closed (useful when using a laptop as a server)
 [Login]
 HandleLidSwitch=ignore
 ```
+List all systemd services (grepable)
+    
+    # systemctl list-units --type=service --state=active
+    OR
+    # systemctl --type=service --state=active
 
 Copy a file over SSH
     
