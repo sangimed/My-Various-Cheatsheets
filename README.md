@@ -157,13 +157,11 @@ Force quit pacman/yaourt
     sudo rm /var/lib/pacman/db.lck
 
 ## Red Hat (based) distros
-go to the internetz ! (uses /!\ Google Public DNS /!\)
-
-    # /etc/sysconfig/network-scripts/ifcfg-enp0s3
-    DNS1=8.8.8.8
-    DNS2=8.8.4.4
-    # Note this was set to no
-    ONBOOT=yes  
+~~go to the internetz ! (uses /!\ Google Public DNS /!\)~~
+- Spot the disconnected network interface with `nmcli`.
+- Then edit the right config file `sudo vi /etc/sysconfig/network-scripts/ifcfg-<interface-name>` by changing `ONBOOT=no` to `ONBOOT=yes`*
+- Restart the network service `sudo systemctl restart network.service`
+- Test `ping google.com`
 
 
 ## [Jekyll](https://jekyllrb.com/)
