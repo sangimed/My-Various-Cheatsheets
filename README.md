@@ -135,6 +135,10 @@ List all systemd services (grepable)
 Copy a file over SSH
     
     ssh-copy-id -i <file_path> <user@host>
+    
+Ping a specific port
+ 
+    nc -vz {host} {port}
 
 ### Arch Linux (and derivatives)
 
