@@ -175,6 +175,10 @@ Force quit pacman/yaourt
 Connect to a database
 
     psql <dbName> <userName>
+    
+List all reserved words
+    
+    select * from pg_get_keywords()
 
 ## Git
 Change git default editor
