@@ -139,6 +139,10 @@ Copy a file over SSH
 Ping a specific port
  
     nc -vz {host} {port}
+    
+Copy Content of a folder to another folder [src](https://askubuntu.com/a/86891/116825)
+
+    cp -a /source/. /dest/
 
 ### Arch Linux (and derivatives)
 
