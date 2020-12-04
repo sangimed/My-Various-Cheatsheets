@@ -143,6 +143,10 @@ Ping a specific port
 Copy Content of a folder to another folder [src](https://askubuntu.com/a/86891/116825)
 
     cp -a /source/. /dest/
+    
+Delete the content of a folder
+    
+     rm -rfv folder/*
 
 ### Arch Linux (and derivatives)
 
