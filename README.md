@@ -235,6 +235,14 @@ Global settings for line endings
 Squashing
 - https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec
 
+Cleaning untracked files
+    
+    # Perform a “dry run” and show you what files and directories will be deleted
+    git clean -d -n
+    
+    # Actual cleaning
+    git clean -d -f
+
 ## VIM
 Change color scheme (to elflord in this example) on the fly
 
