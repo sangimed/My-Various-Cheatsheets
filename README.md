@@ -148,6 +148,10 @@ Delete the content of a folder
     
      rm -rfv folder/*
 
+copy folder
+
+    cp -ar source destination/ # -a preseves ownership -r for recursivity
+
 ### Arch Linux (and derivatives)
 
 Clean the package cache (to save space)
@@ -244,13 +248,23 @@ Cleaning untracked files
     git clean -d -f
 
 ## VIM
-Change color scheme (to elflord in this example) on the fly
 
-    :colorscheme elflord
+```bash
+# Change color scheme (to elflord in this example) on the fly
+:colorscheme elflord
 
-Display line numbers
-​    
-​    :set number
+# Display line numbers
+:set number
+
+# Delete current line
+dd # or D
+
+# Delete a single word
+dw
+
+# Delete all content
+%d
+```
 
 ## Bash
 [LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
