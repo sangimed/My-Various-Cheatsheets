@@ -281,6 +281,11 @@ Get the name of a process from its PID
 Kill a process by its PID  (2728)
 
     taskkill /F /PID 2728
+
+Display the command line with which the process is launched
+
+    wmic process where processid=<pid> get commandline
+
 ## LaTeX
 A good looking listing configuration
 
