@@ -193,6 +193,10 @@ List all reserved words
     select * from pg_get_keywords()
 
 ## Git
+Reverse git log
+
+    git log --reverse
+
 Change git default editor
 
     git config --global core.editor <editor>
