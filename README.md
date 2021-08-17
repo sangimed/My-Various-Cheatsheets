@@ -250,6 +250,10 @@ Cleaning untracked files
     
     # Actual cleaning
     git clean -d -f
+    
+Reset creds
+
+    git config --system --unset credential.helper
 
 ## VIM
 
