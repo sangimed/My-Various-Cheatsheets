@@ -81,6 +81,9 @@ File uploading
     await this.fileService.upload(file);
   }
 ```
+NestJs pipeline digram (by demisx on stackoverflow) :
+
+![image](https://user-images.githubusercontent.com/857405/130357868-5b2fa8b5-0fbd-4b09-9de6-f917f5e1c591.png)
 
 ## MAVEN
 settings.xml file location (Debian based distros)
