@@ -194,6 +194,27 @@ Connect to a database
 List all reserved words
     
     select * from pg_get_keywords()
+    
+Changing the default Schema of a datatabase
+
+```sql
+
+-- Use this to show the current search_path
+-- Should return: "$user",public
+SHOW search_path;
+
+-- Create another schema
+CREATE SCHEMA my_schema;
+GRANT ALL ON SCHEMA my_schema TO my_user;
+
+-- To change search_path on a connection-level
+SET search_path TO my_schema;
+
+-- To change search_path on a database-level
+ALTER database "my_database" SET search_path TO my_schema;
+--src : https://wiki.hackzine.org/sysadmin/postgresql-change-default-schema.html
+
+```
 
 ## Git
 Reverse git log
@@ -305,7 +326,6 @@ A good looking listing configuration
      \begin{lstlisting}[firstnumber=1,numbers=left,numberstyle=\bf \tiny \color{black},caption={Hello World},language=pascal,frame=lines]
         CODE HERE ...
     \end{lstlisting}
-
 
 ## RegExp
 Select all the lines containing "hello"
