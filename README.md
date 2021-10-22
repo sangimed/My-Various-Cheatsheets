@@ -190,7 +190,11 @@ Force quit pacman/yaourt
 Connect to a database
 
     psql <dbName> <userName>
-    
+
+Dumping a schema
+
+    pg_dump -h localhost -U user_name -s sgde_ws > my_dump.sql
+
 List all reserved words
     
     select * from pg_get_keywords()
