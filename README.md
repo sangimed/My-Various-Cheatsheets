@@ -193,7 +193,7 @@ Connect to a database
 
 Dumping a schema
 
-    pg_dump -h localhost -U user_name -s sgde_ws > my_dump.sql
+    pg_dump -h localhost -U user_name -s db_name > my_dump.sql
 
 List all reserved words
     
