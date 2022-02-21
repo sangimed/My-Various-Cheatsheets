@@ -302,7 +302,7 @@ dw
 %d
 ```
 
-## Bash
+## Bash / Linux
 [LeCoupa's BASH Cheatsheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
 
 ## Windows Commands
@@ -321,6 +321,10 @@ Kill a process by its PID  (2728)
 Display the command line with which the process is launched
 
     wmic process where processid=<pid> get commandline
+
+List mounted drives
+
+    df -aTh
 
 ## LaTeX
 A good looking listing configuration
