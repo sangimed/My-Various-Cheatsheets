@@ -175,7 +175,7 @@ Force quit pacman/yaourt
 
     sudo rm /var/lib/pacman/db.lck
     
-[How to setup mount / auto-mount USB Hard Drive](https://gist.github.com/etes/aa76a6e9c80579872e5f) / [Alternative (tested on my Rpi 4B](https://www.shellhacks.com/raspberry-pi-mount-usb-drive-automatically/)
+[How to setup mount / auto-mount USB Hard Drive](https://gist.github.com/etes/aa76a6e9c80579872e5f) / [Alternative (tested on my Rpi 4B)](https://www.shellhacks.com/raspberry-pi-mount-usb-drive-automatically/)
 
 ## Red Hat (based) distros
 ~~go to the internetz ! (uses /!\ Google Public DNS /!\)~~
