@@ -174,6 +174,8 @@ Remove a desktop environement (kde)
 Force quit pacman/yaourt
 
     sudo rm /var/lib/pacman/db.lck
+    
+[How to setup mount / auto-mount USB Hard Drive](https://gist.github.com/etes/aa76a6e9c80579872e5f)
 
 ## Red Hat (based) distros
 ~~go to the internetz ! (uses /!\ Google Public DNS /!\)~~
