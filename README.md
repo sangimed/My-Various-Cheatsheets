@@ -177,6 +177,10 @@ Force quit pacman/yaourt
     
 [How to setup mount / auto-mount USB Hard Drive](https://gist.github.com/etes/aa76a6e9c80579872e5f) / [Alternative (tested on my Rpi 4B)](https://www.shellhacks.com/raspberry-pi-mount-usb-drive-automatically/)
 
+Check port status for a specific host
+
+    nmap <IP> -p <PORT>
+
 ## Red Hat (based) distros
 ~~go to the internetz ! (uses /!\ Google Public DNS /!\)~~
 - Spot the disconnected network interface with `nmcli`.
