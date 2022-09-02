@@ -226,6 +226,10 @@ ALTER database "my_database" SET search_path TO my_schema;
 
 ```
 
+Restart postgres service on Windows 
+
+    net stop postgresql-x64-14 && net start postgresql-x64-14
+
 ## Git
 Reverse git log
 
