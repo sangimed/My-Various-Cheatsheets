@@ -229,6 +229,10 @@ ALTER database "my_database" SET search_path TO my_schema;
 Restart postgres service on Windows 
 
     net stop postgresql-x64-14 && net start postgresql-x64-14
+    
+List all materialized views in postgres
+
+    SELECT relname FROM pg_catalog.pg_class WHERE relkind = 'm';
 
 ## Git
 Reverse git log
